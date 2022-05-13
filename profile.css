@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	width: 100%;
+	background-color: background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top:40px ;
+}
+.card{
+	position: relative;
+	width: 400px;
+	height: 450px;
+	border-radius: 8px;
+	background:background: #1F1C2C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+	backdrop-filter: blur(100px);
+	box-shadow: 2px 5px 5px black,-2px 5px 10px black;
+}
+
+.u-card{
+	height: 120px;
+	background: white;
+}
+
+.profile{
+	text-align: center;
+	position: relative;
+
+}
+.profile img{
+	border-radius: 50px;
+	border:1px solid black;
+}
+.profile h1{
+	color: crimson;
+}
+.profile h1 span{
+	color: black;
+}
+
+.icon{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0;
+
+}
+.icon i{
+	font-size: 25px;
+}
+
+.s-icons{
+	text-align: center;
+	margin-top: 30px;
+
+
+}
+.s-icons i{
+	font-size: 20px;
+	background-color: whitesmoke;
+	color: black;
+	padding: 10px;
+	border-radius:40px;
+	margin:0 3px;
+	border: 1px solid black;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+.s-icons i:hover{
+	transition: .1s;
+	color: white;
+	background: transparent;
+
+
+}
+.btn{
+	text-align: center;
+	margin-top: 40px;
+	
+}
+.btn a:first-child{
+	text-decoration: none;
+	background:#2ecc71;
+	color: white;
+	padding: 10px;
+	letter-spacing: 2px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 1px solid #2ecc71;
+
+}
+.btn a:last-child{
+	text-decoration: none;
+	background:#e74c3c;
+	color: white;
+	padding: 10px;
+	letter-spacing: 2px;
+	border: 1px solid #e74c3c;
+	
+}
+.btn a:first-child:hover{
+	transition: .1s;
+	color: #2ecc71;
+	background: transparent;
+
+}
+
+.btn a:last-child:hover{
+	transition: .1s;
+	color: #e74c3c;
+	background: transparent;
+
+}
+
+.btn2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	text-align: center;
+	padding: 0 50px;
+	color: white;
+}
+.btn2 :hover{
+	cursor: pointer;
+	color: red;
+}
+
